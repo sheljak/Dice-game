@@ -6,7 +6,7 @@ var lastDice;
 
 document.querySelector('.btn-roll').addEventListener('click', function(){
 	if (gamePlaing){
-			//1. Dice scores
+	//1. Dice scores
 	var dice = Math.floor (Math.random() *6) + 1;
 	
 	//2. Display results
@@ -36,7 +36,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 	document.querySelector('.btn-hold').addEventListener('click', function(){
 		if (gamePlaing){
 		
-			//Add current score to global score
+		//Add current score to global score
 		scores[activePlayer] += roundScore;
 		
 		//Update the UI
@@ -60,7 +60,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 	});
 	
 function nextPlayer(){
-	//Change player
+		//Change player
 		activePlayer === 0 ? activePlayer = 1  : activePlayer = 0;
 		roundScore = 0;
 		//Add to current counter
