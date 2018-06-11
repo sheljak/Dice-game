@@ -1,6 +1,7 @@
 # Dice-game
 Dice game project
 
+![image](https://user-images.githubusercontent.com/34804716/41207761-f80131fe-6ccf-11e8-83c9-e5125ad7cdad.png)
 GAME RULES:
 
 - The game has 2 players, playing in rounds
